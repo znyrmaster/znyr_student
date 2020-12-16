@@ -75,7 +75,7 @@
       "provider": "github",
       "owner": "znyrmaster",
       "repo": "znyr_student",
-      "private": true
+      "public": true
     }
   },
   "pre-commit": [
@@ -85,7 +85,7 @@
     "provider": "github",
     "owner": "znyrmaster",
     "repo": "znyr_student",
-    "private": true
+    "public": true
   },
   "repository": {
     "type": "git",
