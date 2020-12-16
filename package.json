@@ -1,10 +1,9 @@
 {
   "name": "jitsi-meet-electron",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ZNYR Student App",
   "main": "./build/main.js",
   "productName": "ZNYR Student App",
-  "homepage": "https://github.com/zynoviq-znyr/znyredu_web_student.git",
   "scripts": {
     "start": "webpack --config ./webpack.main.js --mode development && concurrently \"npm:watch\" \"electron ./build/main.js\"",
     "clean": "rm -rf node_modules build dist",
